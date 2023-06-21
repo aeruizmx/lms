@@ -252,4 +252,141 @@ found [32m[1m0[22m[39m vulnerabilities
 
 [?2004h]0;sail@fe6845aada70: /var/www/html[01;32msail@fe6845aada70[00m:[01;34m/var/www/html[00m$ [7mgit init --initial-branch=main[27mgit init --initial-branch=main
 [?2004lInitialized empty Git repository in /var/www/html/.git/
-[?2004h]0;sail@fe6845aad
+[?2004h]0;sail@fe6845aada70: /var/www/html[01;32msail@fe6845aada70[00m:[01;34m/var/www/html[00m$ php artisan make:model Locations  -fcs  sc
+[?2004l
+  [37;44m INFO [39;49m Model [1m[app/Models/Location.php][22m created successfully.  
+
+  [37;44m INFO [39;49m Factory [1m[database/factories/LocationFactory.php][22m created successfully.  
+
+  [37;44m INFO [39;49m Seeder [1m[database/seeders/LocationSeeder.php][22m created successfully.  
+
+  [37;44m INFO [39;49m Controller [1m[app/Http/Controllers/LocationController.php][22m created successfully.  
+
+[?2004h]0;sail@fe6845aada70: /var/www/html[01;32msail@fe6845aada70[00m:[01;34m/var/www/html[00m$ php artisan make:model Location -fscR
+[?2004l
+  [37;41m ERROR [39;49m Model already exists.  
+
+[?2004h]0;sail@fe6845aada70: /var/www/html[01;32msail@fe6845aada70[00m:[01;34m/var/www/html[00m$ php artisan make:model Location -fscR
+[?2004l
+  [37;44m INFO [39;49m Model [1m[app/Location.php][22m created successfully.  
+
+  [37;44m INFO [39;49m Factory [1m[database/factories/LocationFactory.php][22m created successfully.  
+
+  [37;44m INFO [39;49m Seeder [1m[database/seeders/LocationSeeder.php][22m created successfully.  
+
+  [37;44m INFO [39;49m Controller [1m[app/Http/Controllers/LocationController.php][22m created successfully.  
+
+[?2004h]0;sail@fe6845aada70: /var/www/html[01;32msail@fe6845aada70[00m:[01;34m/var/www/html[00m$ php artisan make:model Location -fscR[1P[1P[1P[1P[1P[1P[1P[1P[1@P[1@o[1@l[1@l
+[?2004l
+  [37;44m INFO [39;49m Model [1m[app/Poll.php][22m created successfully.  
+
+  [37;44m INFO [39;49m Factory [1m[database/factories/PollFactory.php][22m created successfully.  
+
+  [37;44m INFO [39;49m Seeder [1m[database/seeders/PollSeeder.php][22m created successfully.  
+
+  [37;44m INFO [39;49m Controller [1m[app/Http/Controllers/PollController.php][22m created successfully.  
+
+[?2004h]0;sail@fe6845aada70: /var/www/html[01;32msail@fe6845aada70[00m:[01;34m/var/www/html[00m$ php artisan make:model Poll -fscRl[1P[1P[1P[1P[1@Q[1@u[1@e[1@s[1@i[1P[1@t[1@i[1@n[1P[1@o[1@n
+[?2004l
+  [37;44m INFO [39;49m Model [1m[app/Question.php][22m created successfully.  
+
+  [37;44m INFO [39;49m Factory [1m[database/factories/QuestionFactory.php][22m created successfully.  
+
+  [37;44m INFO [39;49m Seeder [1m[database/seeders/QuestionSeeder.php][22m created successfully.  
+
+  [37;44m INFO [39;49m Controller [1m[app/Http/Controllers/QuestionController.php][22m created successfully.  
+
+[?2004h]0;sail@fe6845aada70: /var/www/html[01;32msail@fe6845aada70[00m:[01;34m/var/www/html[00m$ php artisan make:model Question -fscR[1P[1P[1P[1P[1P[1P[1P[1P[1@A[1@n[1@s[1@w[1@e[1@r
+[?2004l
+  [37;44m INFO [39;49m Model [1m[app/Answer.php][22m created successfully.  
+
+  [37;44m INFO [39;49m Factory [1m[database/factories/AnswerFactory.php][22m created successfully.  
+
+  [37;44m INFO [39;49m Seeder [1m[database/seeders/AnswerSeeder.php][22m created successfully.  
+
+  [37;44m INFO [39;49m Controller [1m[app/Http/Controllers/AnswerController.php][22m created successfully.  
+
+[?2004h]0;sail@fe6845aada70: /var/www/html[01;32msail@fe6845aada70[00m:[01;34m/var/www/html[00m$ php artisan make:model Answer -fscR[1P[1P[1P[1P[1P[1P[1@P[1@o[1@l[1@l[1@R[1@e[1@s[1@u[1@l[1@t
+[?2004l
+  [37;44m INFO [39;49m Model [1m[app/PollResult.php][22m created successfully.  
+
+  [37;44m INFO [39;49m Factory [1m[database/factories/PollResultFactory.php][22m created successfully.  
+
+  [37;44m INFO [39;49m Seeder [1m[database/seeders/PollResultSeeder.php][22m created successfully.  
+
+  [37;44m INFO [39;49m Controller [1m[app/Http/Controllers/PollResultController.php][22m created successfully.  
+
+[?2004h]0;sail@fe6845aada70: /var/www/html[01;32msail@fe6845aada70[00m:[01;34m/var/www/html[00m$ php artisan make:model PollResult -fscR[1P[1@r[1P[1@t[1@D[1@e[1@t[1@a[1@i[1@l
+[?2004l
+  [37;44m INFO [39;49m Model [1m[app/PollResultDetail.php][22m created successfully.  
+
+  [37;44m INFO [39;49m Factory [1m[database/factories/PollResultDetailFactory.php][22m created successfully.  
+
+  [37;44m INFO [39;49m Seeder [1m[database/seeders/PollResultDetailSeeder.php][22m created successfully.  
+
+  [37;44m INFO [39;49m Controller [1m[app/Http/Controllers/PollResultDetailController.php][22m created successfully.  
+
+[?2004h]0;sail@fe6845aada70: /var/www/html[01;32msail@fe6845aada70[00m:[01;34m/var/www/html[00m$ php artisan make:model PollResultDetail -fscRR                      Locaio  tionPoll -p
+[?2004l
+  [37;44m INFO [39;49m Model [1m[app/LocationPoll.php][22m created successfully.  
+
+[?2004h]0;sail@fe6845aada70: /var/www/html[01;32msail@fe6845aada70[00m:[01;34m/var/www/html[00m$ php artid san model:show Poll    LocationPoll
+[?2004l
+[32m  [39m[39;1mInspecting database information requires the Doctrine DBAL (doctrine/dbal) package. Would you like to install it?[39;22m (yes/no) [[33mno[39m]
+[1m❯ [22myes
+
+[32mInfo from https://repo.packagist.org: [37;44m#StandWith[30;43mUkraine[0m[39m
+[32m./composer.json has been updated[39m
+[32mRunning composer update doctrine/dbal[39m
+[32mLoading composer repositories with package information[39m
+[32mUpdating dependencies[39m
+[32mLock file operations: 5 installs, 0 updates, 0 removals[39m
+  - Locking [32mdoctrine/cache[39m ([33m2.2.0[39m)
+  - Locking [32mdoctrine/dbal[39m ([33m3.6.3[39m)
+  - Locking [32mdoctrine/deprecations[39m ([33mv1.1.1[39m)
+  - Locking [32mdoctrine/event-manager[39m ([33m2.0.0[39m)
+  - Locking [32mpsr/cache[39m ([33m3.0.0[39m)
+[32mWriting lock file[39m
+[32mInstalling dependencies from lock file (including require-dev)[39m
+[32mPackage operations: 5 installs, 0 updates, 0 removals[39m
+  - Downloading [32mpsr/cache[39m ([33m3.0.0[39m)
+  - Downloading [32mdoctrine/event-manager[39m ([33m2.0.0[39m)
+  - Downloading [32mdoctrine/deprecations[39m ([33mv1.1.1[39m)
+  - Downloading [32mdoctrine/cache[39m ([33m2.2.0[39m)
+  - Downloading [32mdoctrine/dbal[39m ([33m3.6.3[39m)
+ 0/5 [>---------------------------]   0%[1G[2K 1/5 [=====>----------------------]  20%[1G[2K 4/5 [======================>-----]  80%[1G[2K 5/5 [============================] 100%[1G[2K  - Installing [32mpsr/cache[39m ([33m3.0.0[39m): Extracting archive
+  - Installing [32mdoctrine/event-manager[39m ([33m2.0.0[39m): Extracting archive
+  - Installing [32mdoctrine/deprecations[39m ([33mv1.1.1[39m): Extracting archive
+  - Installing [32mdoctrine/cache[39m ([33m2.2.0[39m): Extracting archive
+  - Installing [32mdoctrine/dbal[39m ([33m3.6.3[39m): Extracting archive
+ 0/5 [>---------------------------]   0%[1G[2K 1/5 [=====>----------------------]  20%[1G[2K 2/5 [===========>----------------]  40%[1G[2K 4/5 [======================>-----]  80%[1G[2K 5/5 [============================] 100%[1G[2K[32mGenerating optimized autoload files[39m
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+
+  [37;44m INFO [39;49m Discovering packages.  
+
+  jenssegers/agent [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  laravel/fortify [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  laravel/jetstream [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  laravel/sail [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  laravel/sanctum [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  laravel/tinker [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  livewire/livewire [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  nesbot/carbon [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  nunomaduro/collision [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  nunomaduro/termwind [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  spatie/laravel-ignition [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+
+[32m87 packages you are using are looking for funding.[39m
+[32mUse the `composer fund` command to find out more![39m
+> @php artisan vendor:publish --tag=laravel-assets --ansi --force
+
+  [37;44m INFO [39;49m No publishable resources for tag [1m[laravel-assets][22m.  
+
+[32mNo security vulnerability advisories found[39m
+Using version [32m^3.6[39m for [32mdoctrine/dbal[39m
+[?2004h]0;sail@fe6845aada70: /var/www/html[01;32msail@fe6845aada70[00m:[01;34m/var/www/html[00m$ php artisan model:show LocationPoll
+[?2004l
+  [32;1mApp\LocationPoll[39;22m [90m......................................................................................................[39m  
+  Database [90m........................................................................................................[39m mysql  
+  Table [90m........................................

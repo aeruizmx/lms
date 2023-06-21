@@ -25,4 +25,10 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+
+    // Poll
+
+    Route::get('/poll/{slug}', function ($slug) {
+        return $slug;
+    })->name('poll.show');
 });
